@@ -4,7 +4,9 @@ import com.smiloutcha.linkedlist.datastructures.ListNode;
 
 public class Question19 {
 
-    public ListNode removeNthFromEnd(ListNode head, int n) {
+
+
+    public  ListNode removeNthFromEnd(ListNode head, int n) {
         ListNode reversedhead = reverse(head);
         ListNode temp  = reversedhead ;
         int index = 1 ;
