@@ -4,7 +4,7 @@ import com.smiloutcha.linkedlist.datastructures.ListNode;
 
 public class Question206 {
 
-    public ListNode reverseList(ListNode head) {
+    public static ListNode reverseList(ListNode head) {
        ListNode previousNode = null;
        ListNode currentNode = head ;
        ListNode nextNode = head ;
